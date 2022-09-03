@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <body>
+  
+  <!-- Navigation -->
+  <nav class="w3-bar w3-black">
+    <a href="#home delivey" class="w3-button w3-bar-item">Home Delivey</a>
+    <a href="Homepage.html"><br><h3>Back to Homepage </h3></a> 
+                        
+  </nav>
+  
+  <!-- Slide Show -->
+  <section>
+   
+<head>
+</section>
+
+<!-- Class Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+ </section>
+
+<!-- Yoga Description -->
+<section class="w3-row-padding w3-center w3-light-pink">
+  <article class="w3-third">
+         
+  </article>
+</section>
+
+
+    <style>
+        body{
+   font-size:20px;
+            color: white;
+            background-size: cover;
+        }
+         .box{ width: 900px;
+       float:right;
+       border:3px solid none;}
+       .box ul li{
+           width: 120px;
+           float:right;
+           margin: 10px auto;
+           text-align: center;
+       }
+.mainmenu
+.mainmenu a
+.mainmenu a:hover
+.mainmenu img{
+position: fixed;
+z-index: -1;
+top:0px; left:0px; width:100%; height: 100vh;
+opacity: 0.9;
+/*object-fit:cover;*/
+transition: all ease 0.5s;
+}
+   .wd{
+           width: 300px;
+           height: 539px;
+           background-color: black;
+           opacity: 0.8;
+           padding: 55px;
+       }
+       .wd h1{
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: 300px;
+       }
+       .wd h4{
+           text-align: justify;
+           color:darkgray;
+           font-weight: 100px;
+       }
+       .wd h2{
+           text-align: center;
+           text-transform: uppercase;
+           font-weight: normal;
+           margin: 40px auto;
+       }
+       .opt form , input[type="button"]{
+           background-color: black;
+           color:white;
+         /* padding:10px;*/
+           margin:-14px auto;
+           padding-left: 50px;
+           padding-right: 50px;
+           text-align: center;
+           font-size: 16px;
+       }
+     form, input[type="button"] {
+       animation: glowing 300ms infinite;
+       font-weight: 500%;
+      }
+      @keyframes glowing {
+ 0% {
+   background-color: red;
+ }
+ 50% {
+   background-color: orange;
+ }
+ 100% {
+   background-color: blue;
+ }
+}
+   </style>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(function(){
+var image = $(".mainmenu").find('img').attr('src');
+$(".mainmenu a").mouseover(function(){
+var newimg = $(this).attr('data-image');
+$(this).parent().find('img').attr("src", newimg);
+});
+});
+</script>
+   <div class="box">
+<div class="mainmenu">
+<img src="image\homedelivery.jpg">
+<a data-image = "image\homedelivery.jpg" href=""> Home</a>
+<a data-image = "image\Menu.jpg" href=""> Menu</a>
+<a href=""> FAQ</a>
+<a href=""> Contact</a>
+</div>
+   </div>
+   <div class="wd">
+<h1> Welcome to Foodoee's Kitchen</h1>
+<h4> <i>Order delicious food online, 100% quality, safety and taste assured.</i></h4>
+<h2> Call 999999999 for reservations</h2>
+<div class="opt">
+<form action="" method="post">
+<input type="button" value="ORDER NOW">
+</form>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
+
+</body>
+</html>
+
